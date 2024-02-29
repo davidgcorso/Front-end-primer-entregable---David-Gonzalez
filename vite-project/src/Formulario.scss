@@ -1,0 +1,27 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  
+    label {
+      margin-bottom: 10px;
+      font-size: 14px;
+  
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        box-sizing: border-box;
+      }
+    }
+  
+    button {
+      padding: 10px;
+      background-color: #a01508;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+  }
